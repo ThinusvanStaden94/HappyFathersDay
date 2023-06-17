@@ -1,0 +1,127 @@
+/* Add your CSS styles here */
+body {
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+
+  h1 {
+    font-size: 32px; /* Adjust the font size as desired */
+  }
+  
+  h2 {
+    font-size: 24px; /* Adjust the font size as desired */
+  }
+
+  p {
+    font-size: 20px; /* Adjust the font size as desired */
+  }
+  
+  header {
+    background-color: #1518b8;
+    padding: 20px;
+    color: white;
+  }
+  header li{
+    font-size: 18px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  #hero {
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+    background-color: #1518b8;
+  }
+  
+  #hero button {
+    background-color: #1518b8;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  #hero button:hover {
+    background-color: #c70f0f;
+  }
+  
+  #about {
+    background-color:  #c70f0f;
+    padding: 20px;
+    color: white;
+  }
+  
+  #about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px 0;
+  }
+  
+  #gallery {
+    padding: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .image-container img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+  
+  #achievements {
+    background-color: #c70f0f;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  #achievements h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .achievement-list {
+    list-style-type: disc;
+    margin-left: 30px;
+  }
+  
+  .achievement-list li {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
